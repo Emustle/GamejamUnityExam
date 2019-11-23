@@ -827,11 +827,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -901,6 +896,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -1596,12 +1596,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 150969201}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.85, y: 16.23, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_Father: {fileID: 1066065801}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &175826084
 PrefabInstance:
@@ -1710,11 +1710,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1784,6 +1779,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -2010,11 +2010,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2084,6 +2079,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -2410,11 +2410,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2484,6 +2479,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -3500,11 +3500,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3574,6 +3569,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -4095,11 +4095,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4170,6 +4165,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6.25
       objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
+      objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: x
@@ -4195,11 +4195,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4269,6 +4264,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -4495,11 +4495,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4569,6 +4564,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -4795,11 +4795,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4869,6 +4864,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -4995,11 +4995,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5070,6 +5065,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6.25
       objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
+      objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: x
@@ -5095,11 +5095,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5170,6 +5165,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6.25
       objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
+      objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: x
@@ -5195,11 +5195,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5269,6 +5264,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -5595,11 +5595,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5670,6 +5665,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6.25
       objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
+      objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: x
@@ -5695,11 +5695,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5769,6 +5764,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -5888,6 +5888,92 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 476575088}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &479581697
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 479581699}
+  - component: {fileID: 479581698}
+  m_Layer: 0
+  m_Name: A*
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &479581698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479581697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78396926cbbfc4ac3b48fc5fc34a87d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  data:
+    dataString: UEsDBBQAAAgIAACYn+u4lzbpdAIAABoFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVMty2jAU/RVG68L4BXa6awkhXeQxpZ1svJHta6xBljySHCAZ/r1Xso0dukKc+9A55175kzChG8iNVFvFiidZAPk+I/ZMvs3G4COc6F6KHfuAIeeNFaaySdTl/KaGScR9W6ZlDUax/IfYc5vsIdgKVkpVb4o9rKU2GuGScg0YUtLYaoHQ54yc8Gd+Z0vOeApie/rA0503u+AxB2FAjanxIlqFYRSugr7CDxbLMImDJO4Lg0UQBb7nRdFm7q1ck1bknNYNFFbR2MtfDrcuXZpArX2G1ZVLzpnuiRJzbpwRv+nZ2lAwiqIdM5tbAdtXxraaFr6UpQbTO6Lo+Z4p9K7rSH7KztCa6kPH6Z3yFhydjnbX9Om/+Nx34VLJ+nG4FwUjZCqWH5BhTrWZOD6F778Sb8WR8gPNOLxVIJ7lVslWFBg0qrWlrYbgfvx7lbauID+MeEf1Bmyb0ethwP4iThI/vFuFOJ1hZFbQxVlxWnNWZzZ/EXXAjktnvFsRUDiiX8jeLZDu+yJqKf3V8Ifup5vWBx6Y0gZDvWRhuWayVTaVbJyBVlpr1lIJcHCvoAFBuTm/YhtzO8+b2OTam8gDtW+qv7yPDU/lpsTBY77n3YRe5fE6OV3J4xPo6qU1nAkYSdvAM/q0lkJ06zb1ZCjbtaqk+aRs37Li654RP1tGqyTKsyyJIFom82WclVkcAQ0LP8nikLhFZAJ1Uv7aEe3twamJsbnApRs+NbOtoo1b/ULR45Z91HJiOROl3OUKQLx0Ha7EQeEl+DyLTcHQoB0Yw4SbN/lMCZf5AYr02ih1Sjcno2g6dklJw96lsUhK1u7bkpILufwDUEsDBBQAAAgIAACYn+sMUhodbQAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jM00FFQSi9KLMgoBooYgjilmSkgdrSSYZKpiZmFSXJSkoVJqompha6peVJakrlJaqJxiqFFkrmxUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAACYn+u4lzbpdAIAABoFAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAACYn+sMUhodbQAAAHgAAAAJACQAAAAAAAAAAAAAAMECAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAeQMAAAAA
+    upgradeData: 
+    file_cachedStartup: {fileID: 0}
+    data_cachedStartup: 
+    cacheStartup: 0
+  showNavGraphs: 1
+  showUnwalkableNodes: 1
+  debugMode: 0
+  debugFloor: 0
+  debugRoof: 1
+  manualDebugFloorRoof: 0
+  showSearchTree: 0
+  unwalkableNodeDebugSize: 0.3
+  logPathResults: 1
+  maxNearestNodeDistance: 100
+  scanOnStartup: 1
+  fullGetNearestSearch: 0
+  prioritizeGraphs: 0
+  prioritizeGraphsLimit: 1
+  colorSettings:
+    _SolidColor: {r: 0.11764706, g: 0.4, b: 0.7882353, a: 0.9}
+    _UnwalkableNode: {r: 1, g: 0, b: 0, a: 0.5}
+    _BoundsHandles: {r: 0.29, g: 0.454, b: 0.741, a: 0.9}
+    _ConnectionLowLerp: {r: 0, g: 1, b: 0, a: 0.5}
+    _ConnectionHighLerp: {r: 1, g: 0, b: 0, a: 0.5}
+    _MeshEdgeColor: {r: 0, g: 0, b: 0, a: 0.5}
+    _AreaColors:
+    - {r: 0, g: 0, b: 0, a: 0}
+  tagNames: []
+  heuristic: 2
+  heuristicScale: 1
+  threadCount: 1
+  maxFrameTime: 10
+  batchGraphUpdates: 0
+  graphUpdateBatchingInterval: 0.2
+  euclideanEmbedding:
+    mode: 0
+    seed: 0
+    pivotPointRoot: {fileID: 0}
+    spreadOutCount: 1
+  showGraphs: 1
+--- !u!4 &479581699
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479581697}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &488741274
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5995,11 +6081,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6069,6 +6150,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -6695,11 +6781,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6770,6 +6851,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6.25
       objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
+      objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: x
@@ -6788,6 +6874,80 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 552357248}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &554958189
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3247021555814547041, guid: 6877fb649746c674d8fbbcf60d41892b,
+        type: 3}
+      propertyPath: m_Name
+      value: sword_man
+      objectReference: {fileID: 0}
+    - target: {fileID: 4421200289772735891, guid: 6877fb649746c674d8fbbcf60d41892b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 4421200289772735891, guid: 6877fb649746c674d8fbbcf60d41892b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 20.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 4421200289772735891, guid: 6877fb649746c674d8fbbcf60d41892b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4421200289772735891, guid: 6877fb649746c674d8fbbcf60d41892b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4421200289772735891, guid: 6877fb649746c674d8fbbcf60d41892b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4421200289772735891, guid: 6877fb649746c674d8fbbcf60d41892b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4421200289772735891, guid: 6877fb649746c674d8fbbcf60d41892b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4421200289772735891, guid: 6877fb649746c674d8fbbcf60d41892b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4421200289772735891, guid: 6877fb649746c674d8fbbcf60d41892b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4421200289772735891, guid: 6877fb649746c674d8fbbcf60d41892b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4421200289772735891, guid: 6877fb649746c674d8fbbcf60d41892b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247021555814547042, guid: 6877fb649746c674d8fbbcf60d41892b,
+        type: 3}
+      propertyPath: woosh
+      value: 
+      objectReference: {fileID: 8300000, guid: 791a35cb208339c4b80c4facfd2dcc5d, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6877fb649746c674d8fbbcf60d41892b, type: 3}
 --- !u!1001 &555014874
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7190,11 +7350,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7264,6 +7419,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -7385,11 +7545,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7460,6 +7615,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6.25
       objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
+      objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: x
@@ -7485,11 +7645,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7559,6 +7714,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -7685,11 +7845,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7759,6 +7914,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -8185,11 +8345,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8260,6 +8415,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6.25
       objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
+      objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: x
@@ -8285,11 +8445,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8359,6 +8514,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -8485,11 +8645,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8559,6 +8714,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -8785,11 +8945,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8859,6 +9014,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -9085,11 +9245,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9160,6 +9315,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6.25
       objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
+      objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: x
@@ -9185,11 +9345,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9260,6 +9415,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6.25
       objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
+      objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: x
@@ -9285,11 +9445,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9359,6 +9514,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -9485,11 +9645,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9559,6 +9714,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -9985,11 +10145,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10059,6 +10214,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -10280,11 +10440,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10355,6 +10510,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6.25
       objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
+      objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: x
@@ -10380,11 +10540,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10454,6 +10609,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -10580,11 +10740,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10655,6 +10810,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6.25
       objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
+      objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: x
@@ -10680,11 +10840,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10754,6 +10909,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -11680,11 +11840,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11755,6 +11910,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6.25
       objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
+      objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: x
@@ -11780,11 +11940,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11855,6 +12010,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6.25
       objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
+      objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: x
@@ -11880,11 +12040,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11954,6 +12109,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -12280,11 +12440,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12355,6 +12510,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6.25
       objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
+      objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: x
@@ -12380,11 +12540,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12454,6 +12609,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -12780,11 +12940,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12855,6 +13010,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6.25
       objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
+      objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: x
@@ -12880,11 +13040,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12955,6 +13110,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6.25
       objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
+      objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: x
@@ -12973,6 +13133,114 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1061209189}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1066065797 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3247021555814547041, guid: 6877fb649746c674d8fbbcf60d41892b,
+    type: 3}
+  m_PrefabInstance: {fileID: 554958189}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1066065801 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4421200289772735891, guid: 6877fb649746c674d8fbbcf60d41892b,
+    type: 3}
+  m_PrefabInstance: {fileID: 554958189}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1066065802
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066065797}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: c99aa5e1504f238459934ded6800a718, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.034
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &1067854340
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13180,11 +13448,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13254,6 +13517,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -13380,11 +13648,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13454,6 +13717,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -13580,11 +13848,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13654,6 +13917,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -13780,11 +14048,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13854,6 +14117,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -14080,11 +14348,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14155,6 +14418,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6.25
       objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
+      objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: x
@@ -14180,11 +14448,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14255,6 +14518,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6.25
       objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
+      objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: x
@@ -14280,11 +14548,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14355,6 +14618,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6.25
       objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
+      objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: x
@@ -14380,11 +14648,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14454,6 +14717,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -14680,11 +14948,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14754,6 +15017,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -14880,11 +15148,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14955,6 +15218,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6.25
       objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
+      objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: x
@@ -14980,11 +15248,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15055,6 +15318,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6.25
       objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
+      objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: x
@@ -15080,16 +15348,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 158766651022577094, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 9c49f07afc047784abda956050736ae4, type: 2}
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15160,6 +15418,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6.25
       objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
+      objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: x
@@ -15170,6 +15433,11 @@ PrefabInstance:
       propertyPath: y
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 158766651022577094, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 9c49f07afc047784abda956050736ae4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05f76700d4a21504285765dd6a22eec6, type: 3}
 --- !u!4 &1251664504 stripped
@@ -15680,11 +15948,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15754,6 +16017,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -16080,11 +16348,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16154,6 +16417,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -16280,11 +16548,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16354,6 +16617,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -16580,11 +16848,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16654,6 +16917,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -16880,11 +17148,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16954,6 +17217,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -17475,11 +17743,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17550,6 +17813,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6.25
       objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
+      objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: x
@@ -17575,11 +17843,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17649,6 +17912,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -18075,11 +18343,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18149,6 +18412,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -18275,11 +18543,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18349,6 +18612,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -18475,11 +18743,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18550,6 +18813,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6.25
       objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
+      objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: x
@@ -18575,11 +18843,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18650,6 +18913,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6.25
       objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
+      objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: x
@@ -18675,11 +18943,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18749,6 +19012,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -18975,11 +19243,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19050,6 +19313,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6.25
       objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
+      objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: x
@@ -19075,11 +19343,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19150,6 +19413,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6.25
       objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
+      objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: x
@@ -19175,11 +19443,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19249,6 +19512,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -19475,11 +19743,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19549,6 +19812,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -19875,11 +20143,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19950,6 +20213,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6.25
       objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
+      objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: x
@@ -19975,11 +20243,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20049,6 +20312,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -20675,11 +20943,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20749,6 +21012,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -20875,11 +21143,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20949,6 +21212,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -21675,11 +21943,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21749,6 +22012,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -22075,11 +22343,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22150,6 +22413,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6.25
       objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
+      objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: x
@@ -22175,11 +22443,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22250,6 +22513,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6.25
       objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
+      objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: x
@@ -22275,11 +22543,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22350,6 +22613,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6.25
       objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
+      objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: x
@@ -22375,11 +22643,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22449,6 +22712,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -22570,11 +22838,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22644,6 +22907,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -23170,11 +23438,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23245,6 +23508,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6.25
       objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
+      objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: x
@@ -23270,11 +23538,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23345,6 +23608,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6.25
       objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
+      objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: x
@@ -23370,11 +23638,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23445,6 +23708,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6.25
       objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
+      objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: x
@@ -23470,11 +23738,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23545,6 +23808,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6.25
       objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
+      objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: x
@@ -23570,11 +23838,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23645,6 +23908,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6.25
       objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
+      objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: x
@@ -23670,11 +23938,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23744,6 +24007,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -23870,11 +24138,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23945,6 +24208,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6.25
       objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
+      objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: x
@@ -23970,11 +24238,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24045,6 +24308,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 6.25
       objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
+      objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: x
@@ -24070,11 +24338,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24144,6 +24407,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -24270,11 +24538,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24344,6 +24607,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -24470,11 +24738,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24544,6 +24807,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -24865,11 +25133,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24939,6 +25202,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -25165,11 +25433,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1607229115667885688}
     m_Modifications:
-    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
-        type: 3}
-      propertyPath: m_Name
-      value: Lava
-      objectReference: {fileID: 0}
     - target: {fileID: 7307779693155392474, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25239,6 +25502,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 918102486855623850, guid: 05f76700d4a21504285765dd6a22eec6,
+        type: 3}
+      propertyPath: m_Name
+      value: Lava
       objectReference: {fileID: 0}
     - target: {fileID: -4492195011346520254, guid: 05f76700d4a21504285765dd6a22eec6,
         type: 3}
@@ -25645,7 +25913,7 @@ Transform:
   - {fileID: 2108455328}
   - {fileID: 1765464208}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1607229115667885690
 GameObject:
@@ -37986,3 +38254,72 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1607229117787081261}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7384253539371645121
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7384253538931476541, guid: c3d2852df2104d740849a4345944282b,
+        type: 3}
+      propertyPath: m_Name
+      value: spawner
+      objectReference: {fileID: 0}
+    - target: {fileID: 7384253538931476543, guid: c3d2852df2104d740849a4345944282b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 7384253538931476543, guid: c3d2852df2104d740849a4345944282b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 18.361551
+      objectReference: {fileID: 0}
+    - target: {fileID: 7384253538931476543, guid: c3d2852df2104d740849a4345944282b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7384253538931476543, guid: c3d2852df2104d740849a4345944282b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7384253538931476543, guid: c3d2852df2104d740849a4345944282b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7384253538931476543, guid: c3d2852df2104d740849a4345944282b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7384253538931476543, guid: c3d2852df2104d740849a4345944282b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7384253538931476543, guid: c3d2852df2104d740849a4345944282b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7384253538931476543, guid: c3d2852df2104d740849a4345944282b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7384253538931476543, guid: c3d2852df2104d740849a4345944282b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7384253538931476543, guid: c3d2852df2104d740849a4345944282b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c3d2852df2104d740849a4345944282b, type: 3}

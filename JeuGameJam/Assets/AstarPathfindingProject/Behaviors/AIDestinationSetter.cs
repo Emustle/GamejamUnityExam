@@ -17,8 +17,11 @@ namespace Pathfinding {
 		/// <summary>The object that the AI should move to</summary>
 		public Transform target;
 		IAstarAI ai;
-
-		void OnEnable () {
+        private void Start()
+        {
+            getTarget();
+        }
+        void OnEnable () {
 			ai = GetComponent<IAstarAI>();
 			// Update the destination right before searching for a path as well.
 			// This is enough in theory, but this script will also update the destination every
@@ -26,6 +29,13 @@ namespace Pathfinding {
 			// scripts as well. So it makes sense that it is up to date every frame.
 			if (ai != null) ai.onSearchPath += Update;
 		}
+
+
+        void getTarget()
+        {
+            GameObject cible = GameObject.Find("sword_man");
+            target = cible.transform;
+        }
 
 		void OnDisable () {
 			if (ai != null) ai.onSearchPath -= Update;

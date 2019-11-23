@@ -8,7 +8,8 @@ public class HeroControllers : MonoBehaviour
     public float BoostSpeed = 15f;
     public float CdAttack = 1f;
     public float CdDash = 3f;
-
+    public AudioSource player;
+    public AudioClip woosh;
     private float ActualSpeed;
     private float m_MoveX;
     private float m_MoveY;
@@ -16,11 +17,16 @@ public class HeroControllers : MonoBehaviour
     private bool DashEnCd = false;
     private Rigidbody2D m_Rb;
     private Animator m_Animator;
+    private Vector3 scalePersonnage;
+   
+    [SerializeField] private GameObject Sword;
 
     // Start is called before the first frame update
     void Start()
     {
+        scalePersonnage = transform.localScale;
         ActualSpeed = DefaultSpeed;
+        player = GetComponent<AudioSource>();
     }
 
     private void Awake()
@@ -56,6 +62,7 @@ public class HeroControllers : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Mouse0) && !AttackEnCd)
         {
+            player.PlayOneShot(woosh);
             m_Animator.Play("Attack");
             GestionCdAttack();
         }
@@ -75,7 +82,7 @@ public class HeroControllers : MonoBehaviour
 
     private void Flip(bool bLeft)
     {
-        transform.localScale = new Vector3(bLeft ? 1 : -1, 1, 1);
+        transform.localScale = new Vector3(bLeft ? scalePersonnage.x : -scalePersonnage.x, scalePersonnage.y, scalePersonnage.z);
     }
 
     private void GestionCdAttack()
@@ -108,5 +115,15 @@ public class HeroControllers : MonoBehaviour
     private void CdDispoDash()
     {
         DashEnCd = false;
+    }
+
+    private void EnableSword()
+    {
+        Sword.GetComponent<BoxCollider2D>().enabled = true;
+    }
+
+    private void DisableSword()
+    {
+        Sword.GetComponent<BoxCollider2D>().enabled = false;
     }
 }
