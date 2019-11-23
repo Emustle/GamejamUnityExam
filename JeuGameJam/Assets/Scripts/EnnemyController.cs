@@ -6,10 +6,11 @@ using UnityEngine;
 public class EnnemyController : MonoBehaviour
 {
     public float Speed = 1f;
-
+    private Grille grille;
     private Path m_Path;
     private Tuile m_CurrentTarget;
-
+    [SerializeField]
+    private GameObject m_cible;
     private AudioSource m_AudioSource;
     [SerializeField] private List<AudioClip> m_SpawnSounds;
 
@@ -43,8 +44,9 @@ public class EnnemyController : MonoBehaviour
 
     void Update()
     {
+        //(grille.WorldToGrid(m_cible.transform.position).x,grille.WorldToGrid(m_cible.transform.position).y);
         float t_DistanceAFaire = Speed * Time.deltaTime;
-
+         
         Vector3 t_StartPoint = transform.position;
         Vector3 T_MoveToNextCheckpoint = m_CurrentTarget.transform.position - t_StartPoint;
 
