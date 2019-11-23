@@ -16,10 +16,11 @@ public class HeroControllers : MonoBehaviour
     private bool DashEnCd = false;
     private Rigidbody2D m_Rb;
     private Animator m_Animator;
-
+    private Vector3 scalePersonnage;
     // Start is called before the first frame update
     void Start()
     {
+        scalePersonnage = transform.localScale;
         ActualSpeed = DefaultSpeed;
     }
 
@@ -75,7 +76,7 @@ public class HeroControllers : MonoBehaviour
 
     private void Flip(bool bLeft)
     {
-        transform.localScale = new Vector3(bLeft ? 1 : -1, 1, 1);
+        transform.localScale = new Vector3(bLeft ? scalePersonnage.x : -scalePersonnage.x, scalePersonnage.y, scalePersonnage.z);
     }
 
     private void GestionCdAttack()
