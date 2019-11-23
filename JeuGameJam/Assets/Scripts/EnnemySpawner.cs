@@ -36,6 +36,6 @@ public class EnnemySpawner : MonoBehaviour
 
     private void Spawn()
     {
-        GameObject t_Ennemy = Instantiate(PREFAB_Ennemy);
+        GameObject t_Ennemy = Instantiate(PREFAB_Ennemy, transform.position, Quaternion.identity);
     }
 }
