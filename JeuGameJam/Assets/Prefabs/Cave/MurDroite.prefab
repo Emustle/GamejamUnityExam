@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4684510976031592087}
   - component: {fileID: -4492195011346520254}
   m_Layer: 0
-  m_Name: Mur
+  m_Name: MurDroite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -70,7 +70,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 5107500949498099719, guid: 88e7afa86e6442a49b358e0ba69f81b5,
+  m_Sprite: {fileID: 5912124639312130766, guid: 0bea4a7ea3f0c28498e5e3f786fda781,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
