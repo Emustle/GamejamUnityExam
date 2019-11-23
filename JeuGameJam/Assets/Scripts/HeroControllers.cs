@@ -18,6 +18,9 @@ public class HeroControllers : MonoBehaviour
     private Rigidbody2D m_Rb;
     private Animator m_Animator;
     private Vector3 scalePersonnage;
+   
+    [SerializeField] private GameObject Sword;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -112,5 +115,15 @@ public class HeroControllers : MonoBehaviour
     private void CdDispoDash()
     {
         DashEnCd = false;
+    }
+
+    private void EnableSword()
+    {
+        Sword.GetComponent<BoxCollider2D>().enabled = true;
+    }
+
+    private void DisableSword()
+    {
+        Sword.GetComponent<BoxCollider2D>().enabled = false;
     }
 }
