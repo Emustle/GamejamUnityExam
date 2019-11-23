@@ -5,9 +5,11 @@ using UnityEngine;
 public class HeroControllers : MonoBehaviour
 {
     public float MaxSpeed = 3f;
+    public float CdDash = 5f;
 
     private float m_MoveX;
     private float m_MoveY;
+    private bool EnCd = false;
     private Rigidbody2D m_Rb;
     private Animator m_Animator;
 
@@ -39,7 +41,7 @@ public class HeroControllers : MonoBehaviour
         m_MoveX = t_InputX * MaxSpeed;
         m_MoveY = t_InputY * MaxSpeed;
 
-        if (t_InputX >= t_InputY)
+        if (Mathf.Abs(t_InputX) >= Mathf.Abs(t_InputY))
         {
             m_Animator.SetFloat("Speed", Mathf.Abs(m_MoveX));
         }
@@ -51,6 +53,13 @@ public class HeroControllers : MonoBehaviour
         if (Input.GetKey(KeyCode.Mouse0))
         {
             m_Animator.Play("Attack");
+        }
+
+        if (Input.GetKey(KeyCode.Mouse1) && !EnCd)
+        {
+            Boost();
+            Invoke("StopBoost", 0.3f);
+            GestionCd();
         }
     }
 
@@ -66,9 +75,22 @@ public class HeroControllers : MonoBehaviour
 
     private void Boost()
     {
-        if (Input.GetKey(KeyCode.Mouse1))
-        {
-            MaxSpeed = 15;
-        }
+        MaxSpeed = 15;
+    }
+
+    private void StopBoost()
+    {
+        MaxSpeed = 3;
+    }
+
+    private void GestionCd()
+    {
+        EnCd = true;
+        Invoke("CdDispo", 3f);
+    }
+
+    private void CdDispo()
+    {
+        EnCd = false;
     }
 }
