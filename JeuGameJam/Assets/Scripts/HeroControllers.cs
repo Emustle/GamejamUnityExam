@@ -8,7 +8,8 @@ public class HeroControllers : MonoBehaviour
     public float BoostSpeed = 15f;
     public float CdAttack = 1f;
     public float CdDash = 3f;
-
+    public AudioSource player;
+    public AudioClip woosh;
     private float ActualSpeed;
     private float m_MoveX;
     private float m_MoveY;
@@ -22,6 +23,7 @@ public class HeroControllers : MonoBehaviour
     {
         scalePersonnage = transform.localScale;
         ActualSpeed = DefaultSpeed;
+        player = GetComponent<AudioSource>();
     }
 
     private void Awake()
@@ -57,6 +59,7 @@ public class HeroControllers : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Mouse0) && !AttackEnCd)
         {
+            player.PlayOneShot(woosh);
             m_Animator.Play("Attack");
             GestionCdAttack();
         }
