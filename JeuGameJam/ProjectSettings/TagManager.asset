@@ -38,6 +38,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Deco
+    uniqueID: 2330637461
+    locked: 0
+  - name: Text
+    uniqueID: 2269492037
+    locked: 0
+  - name: Fond
+    uniqueID: 3026236355
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
