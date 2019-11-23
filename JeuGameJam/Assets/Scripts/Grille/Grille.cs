@@ -38,6 +38,11 @@ public class Grille : MonoBehaviour
         get { return m_ColumnCount; }
     }
 
+    public float CellSize
+    {
+        get { return m_CellSize; }
+    }
+
     private void OnDrawGizmos()
     {
         if (!m_ShowGrid)
