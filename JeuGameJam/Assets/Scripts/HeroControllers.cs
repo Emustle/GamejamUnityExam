@@ -4,19 +4,23 @@ using UnityEngine;
 
 public class HeroControllers : MonoBehaviour
 {
-    public float MaxSpeed = 3f;
-    public float CdDash = 5f;
+    public float DefaultSpeed = 3f;
+    public float BoostSpeed = 15f;
+    public float CdAttack = 1f;
+    public float CdDash = 3f;
 
+    private float ActualSpeed;
     private float m_MoveX;
     private float m_MoveY;
-    private bool EnCd = false;
+    private bool AttackEnCd = false;
+    private bool DashEnCd = false;
     private Rigidbody2D m_Rb;
     private Animator m_Animator;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        ActualSpeed = DefaultSpeed;
     }
 
     private void Awake()
@@ -38,8 +42,8 @@ public class HeroControllers : MonoBehaviour
         if (Input.GetKey(KeyCode.D))
             Flip(false);
 
-        m_MoveX = t_InputX * MaxSpeed;
-        m_MoveY = t_InputY * MaxSpeed;
+        m_MoveX = t_InputX * ActualSpeed;
+        m_MoveY = t_InputY * ActualSpeed;
 
         if (Mathf.Abs(t_InputX) >= Mathf.Abs(t_InputY))
         {
@@ -50,16 +54,17 @@ public class HeroControllers : MonoBehaviour
             m_Animator.SetFloat("Speed", Mathf.Abs(m_MoveY));
         }
 
-        if (Input.GetKey(KeyCode.Mouse0))
+        if (Input.GetKey(KeyCode.Mouse0) && !AttackEnCd)
         {
             m_Animator.Play("Attack");
+            GestionCdAttack();
         }
 
-        if (Input.GetKey(KeyCode.Mouse1) && !EnCd)
+        if (Input.GetKey(KeyCode.Mouse1) && !DashEnCd)
         {
             Boost();
             Invoke("StopBoost", 0.3f);
-            GestionCd();
+            GestionCdDash();
         }
     }
 
@@ -73,24 +78,35 @@ public class HeroControllers : MonoBehaviour
         transform.localScale = new Vector3(bLeft ? 1 : -1, 1, 1);
     }
 
+    private void GestionCdAttack()
+    {
+        AttackEnCd = true;
+        Invoke("CdDispoAttack", CdAttack);
+    }
+    private void CdDispoAttack()
+    {
+        AttackEnCd = false;
+    }
+
     private void Boost()
     {
-        MaxSpeed = 15;
+        ActualSpeed = BoostSpeed;
     }
 
     private void StopBoost()
     {
-        MaxSpeed = 3;
+        ActualSpeed = DefaultSpeed;
     }
 
-    private void GestionCd()
+    private void GestionCdDash()
     {
-        EnCd = true;
-        Invoke("CdDispo", 3f);
+        DashEnCd = true;
+        Invoke("CdDispo", CdDash);
+        Invoke("CdDispoDash", CdDash);
     }
 
-    private void CdDispo()
+    private void CdDispoDash()
     {
-        EnCd = false;
+        DashEnCd = false;
     }
 }
