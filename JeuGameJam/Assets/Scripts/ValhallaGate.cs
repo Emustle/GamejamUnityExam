@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ValhallaGate : MonoBehaviour
 {
-    private int m_MaxPoints = 2;
+    private int m_MaxPoints = 100;
     [SerializeField] private GameObject m_Message;
 
     private void OnTriggerEnter2D(Collider2D collision)
