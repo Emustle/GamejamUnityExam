@@ -7,9 +7,13 @@ public class GameManager : MonoBehaviour
     public static GameManager instance = null;
 
     public BoardManager boardScript;
-    public GameObject Astar;
+    public GameObject astar;
+    public GameObject hero;
+
+    private Vector3 m_SpawnTile = new Vector3(7.5f, 21.5f, -1f);
 
     private List<GameObject> m_WarpLists;
+    private GameObject m_AstarInstance = null;
 
     private void Awake()
     {
@@ -17,6 +21,8 @@ public class GameManager : MonoBehaviour
             instance = this;
         else if (instance != this)
             Destroy(gameObject);
+
+        //DontDestroyOnLoad(gameObject);
 
         boardScript = GetComponent<BoardManager>();
         if(boardScript != null)
@@ -36,34 +42,35 @@ public class GameManager : MonoBehaviour
     private void InitGame()
     {
         boardScript.SetupScene();
-
-        
     }
 
     private void Start()
     {
-        Instantiate(Astar, transform.position, Quaternion.identity);
+        //Instantiate(hero, GameObject.Find("Spawn").transform.position, Quaternion.identity);
+        Instantiate(astar, transform.position, Quaternion.identity);
     }
 
     public void LoadLevel(GameObject warpTriggered)
     {
-        switch(warpTriggered.name)
+        switch (warpTriggered.name)
         {
             case "Grotte":
-                SceneManager.LoadScene("FirstLevel");
+                SceneManager.LoadScene("FirstLevel", LoadSceneMode.Single);
                 break;
             case "Lava":
-                SceneManager.LoadScene("SecondLevel");
+                SceneManager.LoadScene("SecondLevel", LoadSceneMode.Single);
                 break;
             case "Water":
-                Debug.LogError("SCENE NOT AVAILABLE YET !");
-                //SceneManager.LoadScene("FirstLevel");
+                SceneManager.LoadScene("ThirdLevel", LoadSceneMode.Single);
                 break;
             case "Random":
-                SceneManager.LoadScene("RandomLevel");
+                SceneManager.LoadScene("RandomLevel", LoadSceneMode.Single);
                 break;
             default:
                 break;
         }
+
+        GameObject.Find("sword_man").transform.position = m_SpawnTile;
+
     }
 }

@@ -30,7 +30,8 @@ public class HpMonstre : MonoBehaviour
         if (collision.gameObject.layer == LayerMask.NameToLayer("sword"))
         //if (KillLayers == (KillLayers | 1 << collision.gameObject.layer))
         {
-            collision.gameObject.GetComponent<GestionPts>().PtsKills += 1;
+            PlayerStats.Points++;
+            collision.gameObject.GetComponent<GestionPoints>().pointsUI.text = PlayerStats.Points.ToString();
 
             Hp--;
         }
