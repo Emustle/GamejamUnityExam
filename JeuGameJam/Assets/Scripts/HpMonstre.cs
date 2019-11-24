@@ -7,11 +7,12 @@ public class HpMonstre : MonoBehaviour
     public int Hp = 1;
     public Animator animator;
     [SerializeField] private LayerMask KillLayers;
-
+    public AudioSource mort;
     private bool Died;
 
     private void Start()
     {
+        mort = GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
         Died = false;
     }
@@ -39,6 +40,7 @@ public class HpMonstre : MonoBehaviour
 
     private void Die()
     {
+        mort.PlayOneShot(mort.clip);
         animator.SetTrigger("IsDead");
         gameObject.GetComponent<BoxCollider2D>().enabled = false;
     }
