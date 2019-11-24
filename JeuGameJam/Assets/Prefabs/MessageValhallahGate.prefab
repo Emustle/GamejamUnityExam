@@ -177,7 +177,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pourfendez 50 ames
+  m_Text: Pourfendez 100 ames
 --- !u!1 &2230938652565851590
 GameObject:
   m_ObjectHideFlags: 0

@@ -7,6 +7,8 @@ public class ValhallaGate : MonoBehaviour
 {
     private int m_MaxPoints = 100;
     [SerializeField] private GameObject m_Message;
+    private GameObject m_MessageCanvas;
+    private bool m_IsMessageDisplayed = false;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -15,9 +17,19 @@ public class ValhallaGate : MonoBehaviour
             Destroy(collision.gameObject);
             SceneManager.LoadScene("CreditsFin");
         }
-        else
+        else if (!m_IsMessageDisplayed)
         {
-            Instantiate(m_Message);
+            m_IsMessageDisplayed = true;
+            m_MessageCanvas = Instantiate(m_Message);
+            StartCoroutine("MessageTimeout", 2f);
         }
+    }
+
+    private IEnumerator MessageTimeout(float a_Wait)
+    {
+        yield return new WaitForSeconds(a_Wait);
+        Destroy(m_MessageCanvas);
+        StopCoroutine("MessageTimeout");
+        m_IsMessageDisplayed = false;
     }
 }

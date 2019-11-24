@@ -190,7 +190,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Developpeur de genie
+  m_Text: 'Developpeurs de genie
 
 
     William Caouette
@@ -1253,11 +1253,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Merci d''avoir Jouer
+  m_Text: 'Merci d''avoir jouer
 
     et
 
-    Bonne Chance sur le chemin
+    bonne chance sur le chemin
 
     du'
 --- !u!222 &1376693501
@@ -1639,7 +1639,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'epee qui fend l''aire
+  m_Text: 'epee qui fend l''air
 
 
     Neutrino'
