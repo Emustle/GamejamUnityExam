@@ -1096,6 +1096,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7384253538931476540, guid: c3d2852df2104d740849a4345944282b,
+        type: 3}
+      propertyPath: CoolDown
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3d2852df2104d740849a4345944282b, type: 3}
 --- !u!1 &248691142
@@ -1130,6 +1135,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boardScript: {fileID: 0}
   astar: {fileID: 4677935072221158362, guid: 01818e93cad4ae741959515658d0fdfb, type: 3}
+  hero: {fileID: 0}
 --- !u!114 &248691144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4510,6 +4516,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7384253538931476540, guid: c3d2852df2104d740849a4345944282b,
+        type: 3}
+      propertyPath: CoolDown
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3d2852df2104d740849a4345944282b, type: 3}
 --- !u!4 &1010892814 stripped
@@ -7638,6 +7649,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7384253538931476540, guid: c3d2852df2104d740849a4345944282b,
+        type: 3}
+      propertyPath: CoolDown
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3d2852df2104d740849a4345944282b, type: 3}
