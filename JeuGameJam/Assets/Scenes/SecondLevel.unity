@@ -17220,7 +17220,7 @@ PrefabInstance:
     - target: {fileID: 7384253538931476540, guid: c3d2852df2104d740849a4345944282b,
         type: 3}
       propertyPath: NbEnnemy
-      value: 2
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3d2852df2104d740849a4345944282b, type: 3}
@@ -17489,12 +17489,12 @@ PrefabInstance:
     - target: {fileID: 7384253538931476540, guid: c3d2852df2104d740849a4345944282b,
         type: 3}
       propertyPath: CoolDown
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7384253538931476540, guid: c3d2852df2104d740849a4345944282b,
         type: 3}
       propertyPath: NbEnnemy
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3d2852df2104d740849a4345944282b, type: 3}

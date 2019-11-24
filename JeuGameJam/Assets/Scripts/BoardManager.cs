@@ -35,9 +35,9 @@ public class BoardManager : MonoBehaviour
     {
         m_gridPositions.Clear();
 
-        for (int x = 1; x < columns - 2; x++)
+        for (int x = 2; x < columns - 2; x++)
         {
-            for (int y = 1; y < rows - 4; y++)
+            for (int y = 3; y < rows - 4; y++)
             {
                 m_gridPositions.Add(new Vector3(x, y, 0f));
             }
@@ -88,13 +88,13 @@ public class BoardManager : MonoBehaviour
             Vector3 randomPosition = RandomPosition();
             GameObject tileChoice = tileArray[Random.Range(0, tileArray.Length)];
 
-            if(tileChoice.name == "TopMurHaut")
+            AjustTileToGrid(tileChoice, randomPosition);
+            if (tileChoice.name == "TopMurHaut")
             {
-                AjustTileToGrid(upperWalls[0], new Vector3(randomPosition.x , randomPosition.y-1, randomPosition.z));
-                AjustTileToGrid(upperWalls[1], new Vector3(randomPosition.x , randomPosition.y-2, randomPosition.z));
+                AjustTileToGrid(upperWalls[0], new Vector3(randomPosition.x, randomPosition.y - 1, randomPosition.z));
+                AjustTileToGrid(upperWalls[1], new Vector3(randomPosition.x, randomPosition.y - 2, randomPosition.z));
             }
 
-            AjustTileToGrid(tileChoice, randomPosition);
         }
     }
 

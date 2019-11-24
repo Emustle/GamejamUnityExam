@@ -39,7 +39,7 @@ public class HpMonstre : MonoBehaviour
     private void Die()
     {
         animator.SetTrigger("IsDead");
-        
+        gameObject.GetComponent<BoxCollider2D>().enabled = false;
     }
 
     private void KillMonster()
