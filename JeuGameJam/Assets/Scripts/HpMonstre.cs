@@ -6,6 +6,7 @@ public class HpMonstre : MonoBehaviour
 {
     public int Hp = 1;
     public Animator animator;
+    [SerializeField] private LayerMask KillLayers;
 
     private bool Died;
 
@@ -21,6 +22,17 @@ public class HpMonstre : MonoBehaviour
         {
             Died = true;
             Die();
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.layer == LayerMask.NameToLayer("sword"))
+        //if (KillLayers == (KillLayers | 1 << collision.gameObject.layer))
+        {
+            collision.gameObject.GetComponent<GestionPts>().PtsKills += 1;
+
+            Hp--;
         }
     }
 

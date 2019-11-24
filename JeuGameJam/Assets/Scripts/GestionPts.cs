@@ -7,11 +7,17 @@ public class GestionPts : MonoBehaviour
     public int PtsVies;
     public int PtsKills;
     public LayerMask HurtLayers;
-    public LayerMask KillLayers;
+    private float m_ImmuneTime = 1f;
+    private float m_LastHitTime;
+
+    private void Start()
+    {
+        m_LastHitTime = -m_ImmuneTime;
+    }
 
     private void Update()
     {
-        if (PtsVies == 0)
+        if (PtsVies <= 0)
         {
             Die();
         }
@@ -19,15 +25,17 @@ public class GestionPts : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        if (HurtLayers == (HurtLayers | 1 << collision.gameObject.layer))
+        if (m_LastHitTime + m_ImmuneTime > Time.time)
         {
-            PtsVies--;
+            return;
         }
 
-        if (KillLayers == (KillLayers | 1 << collision.gameObject.layer))
+        //Si on est touché par l'ennemi
+        if(collision.collider.gameObject.layer == LayerMask.NameToLayer("enemy"))
+        //if (HurtLayers == (HurtLayers | 1 << collision.gameObject.layer))
         {
-            PtsKills++;
-            collision.collider.gameObject.GetComponent<HpMonstre>().Hp--;
+            PtsVies--;
+            m_LastHitTime = Time.time;
         }
     }
 
