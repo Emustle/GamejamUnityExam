@@ -10,9 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4677935072221158364}
   - component: {fileID: 4677935072221158363}
-  - component: {fileID: 4677935072221158365}
   m_Layer: 0
-  m_Name: A_
+  m_Name: Astar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -87,15 +86,3 @@ MonoBehaviour:
     pivotPointRoot: {fileID: 0}
     spreadOutCount: 1
   showGraphs: 1
---- !u!114 &4677935072221158365
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4677935072221158362}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf932e348b80d154c9fca336981b4feb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

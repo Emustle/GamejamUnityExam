@@ -2,23 +2,29 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
-public class GestionPts : MonoBehaviour
+public class GestionVie : MonoBehaviour
 {
-    public int PtsVies;
-    public int PtsKills;
     public LayerMask HurtLayers;
     private float m_ImmuneTime = 1f;
     private float m_LastHitTime;
 
+    public Text viesUI;
+
     private void Start()
     {
+        DontDestroyOnLoad(gameObject);
+
         m_LastHitTime = -m_ImmuneTime;
+
+        viesUI.text = PlayerStats.Vies.ToString();
+
     }
 
     private void Update()
     {
-        if (PtsVies <= 0)
+        if (PlayerStats.Vies <= 0)
         {
             Die();
         }
@@ -35,13 +41,18 @@ public class GestionPts : MonoBehaviour
         if(collision.collider.gameObject.layer == LayerMask.NameToLayer("enemy"))
         //if (HurtLayers == (HurtLayers | 1 << collision.gameObject.layer))
         {
-            PtsVies--;
+            PlayerStats.Vies--;
+            viesUI.text = PlayerStats.Vies.ToString();
+
             m_LastHitTime = Time.time;
         }
     }
 
-    private void Die()
+    public void Die()
     {
+        Destroy(gameObject);
+        PlayerStats.Vies = PlayerStats.DEBUT_VIE;
+        PlayerStats.Points = PlayerStats.DEBUT_POINTS;
         SceneManager.LoadScene("InterfaceDie");
     }
 }
