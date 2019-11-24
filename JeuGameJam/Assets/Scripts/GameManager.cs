@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
     public static GameManager instance = null;
 
     public BoardManager boardScript;
+    public GameObject Astar;
 
     private List<GameObject> m_WarpLists;
 
@@ -35,6 +36,13 @@ public class GameManager : MonoBehaviour
     private void InitGame()
     {
         boardScript.SetupScene();
+
+        
+    }
+
+    private void Start()
+    {
+        Instantiate(Astar, transform.position, Quaternion.identity);
     }
 
     public void LoadLevel(GameObject warpTriggered)

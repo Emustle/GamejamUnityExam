@@ -389,7 +389,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DefaultSpeed: 3
   BoostSpeed: 15
-  CdAttack: 1
+  CdAttack: 0.5
   CdDash: 3
   player: {fileID: 0}
   woosh: {fileID: 8300000, guid: 791a35cb208339c4b80c4facfd2dcc5d, type: 3}
