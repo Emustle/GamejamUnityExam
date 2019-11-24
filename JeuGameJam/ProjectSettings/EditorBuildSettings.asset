@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/InterfaceOption.unity
     guid: 63962c5f7b57cd247b6cf53c1223d626
+  - enabled: 1
+    path: Assets/Scenes/InterfaceDie.unity
+    guid: a569e5ed7df700b43bb8801a1c8456ef
   m_configObjects: {}
