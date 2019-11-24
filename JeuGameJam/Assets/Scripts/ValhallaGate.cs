@@ -5,14 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class ValhallaGate : MonoBehaviour
 {
-    private int m_MaxPoints = 50;
+    private int m_MaxPoints = 2;
+    [SerializeField] private GameObject m_Message;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.GetComponent<HeroControllers>() != null && PlayerStats.Points >= m_MaxPoints)
         {
-            collision.gameObject.GetComponent<GestionVie>().Die();
-            SceneManager.LoadScene("Credits");
+            Destroy(collision.gameObject);
+            SceneManager.LoadScene("CreditsFin");
+        }
+        else
+        {
+            Instantiate(m_Message);
         }
     }
 }

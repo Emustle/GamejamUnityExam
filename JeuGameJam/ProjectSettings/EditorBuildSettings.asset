@@ -27,6 +27,9 @@ EditorBuildSettings:
     path: Assets/Scenes/InterfaceDefault.unity
     guid: e33526d775230194cb81d76904cfabb9
   - enabled: 1
+    path: Assets/Scenes/CreditsFin.unity
+    guid: 774125fecac57cd489abc813a3a0987b
+  - enabled: 1
     path: Assets/Scenes/InterfaceOption.unity
     guid: 63962c5f7b57cd247b6cf53c1223d626
   - enabled: 1

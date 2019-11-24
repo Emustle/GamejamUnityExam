@@ -14,6 +14,7 @@ public class GestionVie : MonoBehaviour
 
     private void Start()
     {
+
         DontDestroyOnLoad(gameObject);
 
         m_LastHitTime = -m_ImmuneTime;
@@ -51,8 +52,6 @@ public class GestionVie : MonoBehaviour
     public void Die()
     {
         Destroy(gameObject);
-        PlayerStats.Vies = PlayerStats.DEBUT_VIE;
-        PlayerStats.Points = PlayerStats.DEBUT_POINTS;
         SceneManager.LoadScene("InterfaceDie");
     }
 }

@@ -7,6 +7,8 @@ public class ButtonStart : MonoBehaviour
 {
     public void LoadHub()
     {
+        PlayerStats.Vies = PlayerStats.DEBUT_VIE;
+        PlayerStats.Points = PlayerStats.DEBUT_POINTS;
         SceneManager.LoadScene("Hub");
     }
 }
